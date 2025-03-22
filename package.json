@@ -1,5 +1,5 @@
 {
-  "homepage": "https://akash354106.github.io/ufocube",
+  "homepage": "https://Akash354106.github.io/ufocube",
   "name": "ufocube",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d dist",
+  "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

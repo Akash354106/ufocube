@@ -26,9 +26,6 @@ function Contact() {
           className="bg-blue-950 bg-opacity-70 backdrop-blur-lg p-8 rounded-xl w-full max-w-lg border-2 border-cyan-400 shadow-lg text-white mt-5"
         >
           <h2 className="text-4xl font-bold text-center mb-4">CONTACT US</h2>
-          <form action="https://formsubmit.co/19ed9d0ea1d27485ebb9cfcdc5299fbf" method="POST" target="_blank" >
-            <input type="hidden" name="_captcha" value="false" />
-
             {/* Name Field */}
             <div className="relative mb-6">
               <input
@@ -41,7 +38,7 @@ function Contact() {
                 required
               />
               <label
-                className="absolute left-2 top-2 text-gray-300 transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-lg peer-focus:top-2 peer-focus:text-sm peer-focus:text-cyan-400"
+                className="absolute left-2 top-2 transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-lg peer-focus:top-2 peer-focus:text-sm text-cyan-400"
               >
                 Your Name
               </label>
@@ -60,7 +57,7 @@ function Contact() {
                 required
               />
               <label
-                className="absolute left-2 top-2 text-gray-300 transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-lg peer-focus:top-2 peer-focus:text-sm peer-focus:text-cyan-400"
+                className="absolute left-2 top-2 transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-lg peer-focus:top-2 peer-focus:text-sm text-cyan-400"
               >Your Email</label>
             </div>
 
@@ -76,7 +73,7 @@ function Contact() {
                 required
               ></textarea>
               <label
-                className="absolute left-2 top-2 text-gray-300 transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-lg peer-focus:top-2 peer-focus:text-sm peer-focus:text-cyan-400"
+                className="absolute left-2 top-2 transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-lg peer-focus:top-2 peer-focus:text-sm text-cyan-400"
               >Your Message</label>
             </div>
 
@@ -87,9 +84,7 @@ function Contact() {
             >
               SUBMIT
             </button>
-          </form>
-
-        </motion.div>
+            </motion.div>
       </div>
       <Footer />
     </>
